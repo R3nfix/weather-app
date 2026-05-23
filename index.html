@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="error-container hide" data-js-error-message>
+            <p class="error-container__message">Пожалуйста, введите город</p>
+        </div>
+        <div class="weather-search">
+            <input type="text" data-js-city placeholder="Введите город..." aria-label="Введите город">
+            <button type="button" class="weather-search__btn" data-js-get-weather>
+                <i class="bx bx-search test"></i>
+            </button>
+        </div>
+
+        <div class="weather-app weather-app__container" data-js-weather>
+            <div class="weather-app__img">
+                <img src="" data-js-img>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
