@@ -1,5 +1,9 @@
 # ⛅ Weather App
 
+<div align="center">
+  <img src="./img/weather-app.png" width="450" height="auto">
+</div>
+
 ### [EN]
 
 Weather App is a simple HTML, CSS, and JavaScript weather web app that uses the free OpenWeatherMap API.
